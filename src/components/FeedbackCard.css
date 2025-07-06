@@ -1,0 +1,9 @@
+.feedback-card {
+  background-color: #d9f0ff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  font-style: italic;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}

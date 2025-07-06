@@ -1,0 +1,66 @@
+.header {
+  background-color: #c5e7ff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px; /* chỉnh kích thước logo */
+  margin-right: 20px;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: Betm roundedLexend Deca;
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: 1000;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #fff200;
+}
+
+.nav-item.active {
+  background-color: #fff200;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+.user-avatar-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}

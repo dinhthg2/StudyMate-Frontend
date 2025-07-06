@@ -1,0 +1,159 @@
+.auth-container {
+  background-color: #a8def7;
+  max-width: 380px;
+  margin: 60px auto;
+  padding: 30px 30px 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.auth-container h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.role-tabs {
+  display: flex;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1.5px solid #000;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  border-right: 1.5px solid #000;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+.tab.active {
+  background-color: #fff200;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 18px;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  
+}
+
+.auth-options {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 18px;
+  
+}
+
+.auth-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+}
+
+.forgot-link {
+  cursor: pointer;
+  color: #000;
+  text-decoration: underline;
+  margin-right: 1px;
+}
+
+.btn-submit {
+  background-color: #fff200;
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #e6d900;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #a2a2a2;
+  margin: 15px 0;
+}
+
+.btn-google,
+.btn-facebook {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.btn-google {
+  background-color: white;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.btn-google:hover {
+  background-color: #f2f2f2;
+}
+
+.btn-facebook {
+  background-color: #1877f2;
+  color: white;
+}
+
+.btn-facebook:hover {
+  background-color: #155db8;
+}
+
+.switch-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.switch-link {
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.forgot-password {
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.forgot-password:hover {
+  color: #0056b3;
+}
+.success-message {
+  color: green;
+  margin-top: 10px;
+}

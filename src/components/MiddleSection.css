@@ -1,0 +1,123 @@
+.middle-container {
+  padding: 40px;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  margin: 40px auto;
+  max-width: 1100px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.small-title {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.intro-text h2 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.btn-yellow {
+  background-color: #fff200;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-yellow:hover {
+  background-color: #e6d900;
+}
+
+.intro-images {
+  display: flex;
+  gap: 15px;
+}
+
+.intro-images > div {
+  background-color: #cfe7f9;
+  border-radius: 15px;
+}
+
+.img-1 {
+  width: 150px;
+  height: 100px;
+}
+
+.img-2 {
+  width: 200px;
+  height: 150px;
+}
+
+.img-3 {
+  width: 180px;
+  height: 120px;
+}
+
+.feedback-section {
+  text-align: center;
+}
+
+.feedback-section h3 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.feedback-card {
+  width: 250px;
+  background-color: #d9f0ff;
+  border-radius: 15px;
+  padding: 20px;
+  font-style: italic;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #c5e7ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #000;
+}
